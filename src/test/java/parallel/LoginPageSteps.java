@@ -24,7 +24,7 @@ public class LoginPageSteps {
 	@When("user gets the title of the page")
 	public void user_gets_the_title_of_the_page() {
 		title = loginPage.getLoginPageTitle();
-		System.out.println("Page title is: " + title);
+		System.out.println("Page ti is: " + title);
 	}
 
 	@Then("page title should be {string}")
