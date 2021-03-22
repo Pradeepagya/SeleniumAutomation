@@ -20,6 +20,7 @@ public class TShirtsPageSteps {
     @Given("^user is on Tshirt page$")
     public void user_is_on_tshirt_page() throws Throwable {
     	tshirtpage.getTshirtsPagetitle();
+    	System.out.println("test");
     }
 
  
